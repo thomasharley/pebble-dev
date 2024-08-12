@@ -1,0 +1,26 @@
+{
+  "name": "watchface_js",
+  "author": "Thomas Harley",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "capabilities": ["location"],
+    "main": {
+      "rockyjs": "src/rocky/index.js",
+      "pkjs": "src/pkjs/index.js"
+    },
+    "displayName": "WatchfaceJS",
+    "uuid": "687d55fe-269c-4726-96ed-ab8c01ff055a",
+    "projectType": "rocky",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}

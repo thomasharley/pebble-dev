@@ -1,0 +1,54 @@
+{
+  "name": "watchface",
+  "author": "Thomas Harley",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Watchface",
+    "uuid": "c46e6f6f-83a8-4590-bfc2-1df5638140d9",
+    "sdkVersion": "3",
+    "capabilities": ["location"],
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "TEMPERATURE",
+      "CONDITIONS"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_48",
+          "file": "fonts/perfect-dos-vga.ttf",
+          "compatibility":"2.7"
+        },
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_20",
+          "file": "fonts/perfect-dos-vga.ttf",
+          "compatibility":"2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/background.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_ICON",
+          "file": "images/bt-icon.png"
+        }
+      ]
+    }
+  }
+}

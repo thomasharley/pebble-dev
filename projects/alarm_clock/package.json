@@ -1,0 +1,35 @@
+{
+  "name": "alarm_clock",
+  "author": "Thomas Harley",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Alarm Clock",
+    "uuid": "e4aca9aa-3167-428d-8677-ef30f40ccb5d",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "CLOCK_SEQUENCE",
+          "file": "images/clock_sequence.pdc"
+        }
+      ]
+    }
+  }
+}

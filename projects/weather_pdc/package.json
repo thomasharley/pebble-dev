@@ -1,0 +1,35 @@
+{
+  "name": "weather_pdc",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Weather PDC",
+    "uuid": "6e1724fb-b56b-48ef-9294-5e8e4472a959",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+          {
+            "type": "raw",
+            "name": "WEATHER_IMAGE",
+            "file": "images/weather_image.pdc"
+          }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "projectType": "rocky", 
+    "messageKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "companyName": "Thomas Harley", 
+    "enableMultiJS": true, 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "versionLabel": "1.0", 
+    "longName": "WatchfaceJS", 
+    "shortName": "WatchfaceJS", 
+    "name": "watchface_js", 
+    "sdkVersion": "3", 
+    "displayName": "WatchfaceJS", 
+    "uuid": "687d55fe-269c-4726-96ed-ab8c01ff055a", 
+    "appKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "capabilities": [
+        "location"
+    ], 
+    "main": {
+        "rockyjs": "src/rocky/index.js", 
+        "pkjs": "src/pkjs/index.js"
+    }, 
+    "resources": {
+        "media": []
+    }
+}

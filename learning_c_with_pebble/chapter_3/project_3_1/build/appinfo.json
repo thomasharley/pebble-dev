@@ -1,0 +1,30 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk", 
+        "diorite"
+    ], 
+    "displayName": "project_3_1", 
+    "name": "project_3_1", 
+    "messageKeys": {
+        "dummy": 10000
+    }, 
+    "companyName": "MakeAwesomeHappen", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "dummy": 10000
+    }, 
+    "longName": "project_3_1", 
+    "shortName": "project_3_1", 
+    "watchapp": {
+        "watchface": false
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "93ed06b0-a1bf-4ead-9a5a-bfcf4438a135"
+}
